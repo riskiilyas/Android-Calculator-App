@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keecoding.calculatorapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/calculatorappicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/calculatorappicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyCalculator">
+        <activity
+            android:name="com.keecoding.calculatorapp.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
